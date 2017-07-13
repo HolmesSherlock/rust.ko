@@ -7,3 +7,7 @@ crate-type = ["staticlib"]
 
 [dependencies.linux-std]
 path = "std"
+
+[dependencies]
+compiler_builtins = { git = "https://github.com/rust-lang-nursery/compiler-builtins" }
+

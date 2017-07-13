@@ -7,6 +7,10 @@
 char __morestack[1024];
 char _GLOBAL_OFFSET_TABLE_;
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Dipanjan");
+MODULE_DESCRIPTION("A Simple Hello World module in Rust");
+
 void abort(void)
 {
     BUG();
@@ -29,4 +33,4 @@ static void hello_exit(void)
 module_init(hello_init);
 module_exit(hello_exit);
 
-MODULE_LICENSE("MIT");
+//MODULE_LICENSE("MIT");
