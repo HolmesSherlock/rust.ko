@@ -1,23 +1,15 @@
-[1449001.518505] hello: loading out-of-tree module taints kernel.
-[1449001.518507] hello: module license 'unspecified' taints kernel.
-[1449001.518508] Disabling lock debugging due to kernel taint
-[1449001.518540] hello: module verification failed: signature and/or required key missing - tainting kernel
-[1449001.518545] hello: no symbol version for memmove
-[1449001.518546] hello: Unknown symbol memmove (err -22)
-[1449001.518547] hello: no symbol version for memcpy
-[1449001.518548] hello: Unknown symbol memcpy (err -22)
-[1449001.518549] hello: no symbol version for kfree
-[1449001.518550] hello: Unknown symbol kfree (err -22)
-[1449001.518584] hello: Unknown symbol _Unwind_Resume (err 0)
-[1449001.518598] hello: Unknown symbol __muloti4 (err 0)
-[1449001.518614] hello: Unknown symbol rust_begin_unwind (err 0)
-[1449001.518627] hello: Unknown symbol __floatundidf (err 0)
-[1449001.518628] hello: no symbol version for memcmp
-[1449001.518628] hello: Unknown symbol memcmp (err -22)
-[1449001.518640] hello: Unknown symbol __floatundisf (err 0)
-[1449001.518640] hello: no symbol version for memset
-[1449001.518641] hello: Unknown symbol memset (err -22)
-[1449001.518653] hello: Unknown symbol __umodti3 (err 0)
-[1449001.518665] hello: Unknown symbol __udivti3 (err 0)
-[1449001.518666] hello: no symbol version for __kmalloc
-[1449001.518666] hello: Unknown symbol __kmalloc (err -22)
+[72832.327750] hello: no symbol version for memmove
+[72832.327753] hello: Unknown symbol memmove (err -22)
+[72832.327755] hello: no symbol version for memcpy
+[72832.327756] hello: Unknown symbol memcpy (err -22)
+[72832.327757] hello: no symbol version for kfree
+[72832.327758] hello: Unknown symbol kfree (err -22)
+[72832.327774] hello: Unknown symbol _Unwind_Resume (err 0)
+[72832.327781] hello: Unknown symbol rust_begin_unwind (err 0)
+[72832.327782] hello: no symbol version for memcmp
+[72832.327783] hello: Unknown symbol memcmp (err -22)
+[72832.327784] hello: no symbol version for memset
+[72832.327785] hello: Unknown symbol memset (err -22)
+[72832.327786] hello: no symbol version for __kmalloc
+[72832.327787] hello: Unknown symbol __kmalloc (err -22)
+
